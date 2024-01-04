@@ -1,0 +1,42 @@
+{
+  "name": "boilerplate/media",
+  "description": "Media Module",
+  "homepage": "https://gitlab.com/Boilerplate/baseplate/backend/media-module",
+  "type": "library",
+  "license": "proprietary",
+  "require": {
+    "php": "^8.2",
+    "bensampo/laravel-enum": "^6.3",
+    "doctrine/dbal": "^3.4",
+    "guzzlehttp/guzzle": "^7.0",
+    "konekt/concord": "^1.10.2",
+    "illuminate/support": "^10.9.0",
+    "spatie/laravel-query-builder": "^5.0.3",
+    "league/glide-laravel": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Boilerplate\\Media\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {}
+  },
+  "extra": {
+    "laravel": {
+      "providers": [],
+      "dont-discover": [
+      ]
+    }
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "sort-packages": true,
+    "allow-plugins": {
+      "dealerdirect/phpcodesniffer-composer-installer": true,
+      "composer/package-versions-deprecated": true
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}

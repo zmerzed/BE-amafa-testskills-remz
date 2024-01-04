@@ -1,0 +1,12 @@
+/vendor
+.phpunit.result.cache
+/.phpunit.cache
+.env
+.env.backup
+npm-debug.log
+yarn-error.log
+.DS_Store
+.vscode
+composer.lock
+/.idea
+.env.example
